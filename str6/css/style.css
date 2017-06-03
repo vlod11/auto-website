@@ -1,0 +1,569 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/18px ˈRobotoˈ, Times, sans-serif;
+	background-color: #ffffff;
+}
+
+ol, ul {list-style: none;}
+
+	*{
+		margin: 0;
+		padding: 0;
+		outline: none;
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/*a, a:hover {text-decoration: none;}*/
+
+.clear:before,
+.clear:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right  {float:right;}
+	
+.container {
+	width: 1000px;
+	margin: 0 auto;	
+}
+
+#header {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 15px 0;
+    max-width: 1920px;
+    min-width: 1000px;
+}
+
+.logo {
+	float:left;
+    margin-top: -20px;
+}
+.phone{
+    margin-left: 660px;
+    width:170px;
+    font: 18px 'Roboto', Times, sans-serif;
+}
+.phone-small{
+    display: inline-block;
+    font: 18px 'Roboto', sans-serif;
+    color: #1E90FF;
+}
+.phone-big{
+    margin-left: 6px;
+    display: inline-block;
+    font: 24px 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+.nav {
+	float:left;
+	padding-top: 5px;
+    padding-left: 80px;
+}
+.nav li {
+	float: left;
+	margin-right: 22px;
+    
+}
+
+.nav li:last-child {margin-right: 0;}
+.nav a:hover{
+    text-decoration: none;
+}
+.nav a {
+	/*text-transform:uppercase;*/
+	font: 14px Roboto Light, sans-serif;
+	color: #282828
+}
+
+#home {
+	height: 631px;
+	padding-top: 154px;
+	text-align: center;
+	color: #ffffff;
+	background: #222 url(../img/home-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+    max-width: 1920px;
+}
+
+#home h3 {
+	margin-bottom: 77px;
+	font: bold 55px Roboto Black, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#home h1 {
+   color: #ffffff;
+	font:  26px 'Roboto Light' , sans-serif;
+    line-height: 1.3;
+     margin-left: auto;
+    margin-right: auto;
+    width: 690px;
+    height: 87px;
+    padding: 10px 5px 5px 5px;
+    margin-bottom: 88px;
+    font-weight: normal;
+}
+
+#aukc {
+	text-align: left;
+	height: 660px;	
+	background: #F7F7F7;
+     min-width: 1000px;
+	max-width: 1920px;
+    
+}
+
+#aukc h4 {
+	font: bold 22px Roboto Black, sans-serif;
+    width: 20px;
+    float: left;
+    margin-left: -480px;
+    margin-top: 45px;
+}
+
+#aukc h3 {
+	font: 16px Roboto Black, sans-serif;
+    margin-top: 150px;
+      margin-left: -530px;
+    width: 468px;
+    height: 122px;
+        float:left;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+#aukc h2 {
+	font: bold 22px Roboto Black, sans-serif;
+    width: 350px;
+    float: left;
+    margin-left: -480px;
+    margin-top: 45px;
+    
+}
+
+#aukc h1 {
+	font: 16px Roboto Black, sans-serif;
+    margin-top: 150px;
+      margin-left: -530px;
+    width: 468px;
+    height: 122px;
+        float:left;
+    line-height: 1.9;
+}
+
+#aukc .line{
+    margin-top: 130px;
+}
+
+#header .btn{
+    float:right;
+    margin-top: -30px;
+    text-transform: none;
+	display: inline-block;
+	padding: 7px 10px;
+	color: #ffffff;
+	font: 14px Roboto, sans-serif;
+	-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+			-o-border-radius: 4px;
+				border-radius: 4px;
+}
+
+#vid {
+	height: 614px;
+	text-align: center;
+	color: #1371b7;
+	background: #222 url(../img/vid.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#vid img{
+    margin-top: 225px;
+    z-index: 20;
+    border: none;
+    margin-left: 11px;
+}
+
+#test {
+		height: 700px;
+		padding-top: 150px;
+		text-align: center;
+		color: #ffffff;		
+		background: #222 url(../img/test.jpg)no-repeat center bottom;
+		-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+
+
+#test h6 {
+    margin-left: -475px;
+    margin-top: -85px;
+	font: bold 22px Roboto Black, sans-serif;
+    width: 150px;
+    float: left;
+    color:#ffffff;
+}
+
+
+
+#test h5 {
+	margin-bottom: 30px;
+    margin-top: -60px;
+	color: 	#ffffff;
+	font: bold 22px Roboto Black, sans-serif;    
+    text-align: left;
+    float: left;
+}
+#test .li-1{
+    float: left;
+    margin-top: 120px;
+}
+
+#test h4 {
+    margin-top: 40px;
+	font: bold 22px Roboto, sans-serif;    
+    float: left;
+    color: #00a3ec;
+    margin-left: -10px;
+}
+
+#test h3 {
+	color: 	#ffffff;
+	font: 16px Roboto, sans-serif;
+     float: left;
+    margin-left: -100px;
+    margin-top: 107px;
+    line-height: 2.12;
+    text-align: left
+}
+
+#test h2 {
+	font: bold 22px Roboto, sans-serif;    
+    float: left;
+    color: #00a3ec;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+#test .li-2{
+    float: left;
+    margin-left: 180px;
+    margin-top: 120px;
+}
+
+#test .container h1 {
+	font: 16px Roboto Black, sans-serif;    
+    line-height: 1.5;
+     float: right;
+    text-align: left;
+    width:470px;
+    margin-top: 40px;
+    line-height: 2.12;
+}
+
+
+.line{
+   width:540px;
+    position: relative;
+    top:-95px;
+    float:left;
+}
+
+#perevozki {
+		padding-top: 154px;
+		text-align: center;
+		color: #1371b7;
+		height: 230px;
+		background: #222 url(../img/perevozki.jpg)no-repeat center bottom;		
+			-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+#perevozki .container h3{
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 1000px;
+    top: -180px;
+    left: 5px;
+	font: 34px Roboto Black, sans-serif;
+
+    color: #050505;
+}
+
+#otpr {
+		height: 400px;
+		padding-top: 50px;
+		padding-right: 10px;
+		text-align: center;
+		color: #ffffff;		
+		background: #222 url(../img/otpr.jpg)no-repeat center bottom;		
+			-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+
+#otpr h1 {
+    
+	height: 400px;
+	float: left;	
+	height: 50px;
+    font: bold 43px Roboto Black, sans-serif;
+    width:500px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#otpr span{
+    display: block;
+    margin-top: -20px;
+    font-size: 60px;
+}
+
+#put {
+		padding-top: 154px;
+		text-align: center;
+		color: #1371b7;
+		height: 259px;
+		background: #222 url(../img/put.jpg)no-repeat center bottom;		
+			-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+
+#put h3 {
+    width: 525px;
+	height: 30px;
+    margin-left: 340px;
+    margin-top: -95px;
+	margin-bottom: 30px;
+	font: 18px Roboto Black, sans-serif; 
+    color: #006097;
+    text-align: left;
+    line-height: 1.8;
+}
+
+#put h1 {
+    width: 525px;
+	height: 30px;
+    margin-left: 340px;
+    margin-top: 60px;
+	margin-bottom: 30px;
+	font: bold 18px Roboto Black, sans-serif; 
+    color: #393b3c;
+    text-align: left;
+    line-height: 1.8;
+}
+#put h1 span{
+    font: 14px Roboto Black, sans-serif;
+}
+
+
+#vopr {
+		text-align: left;
+		color: #ffffff;
+		height: 85px;
+		background: #222 url(../img/vopr.jpg)no-repeat center bottom;		
+			-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+
+#vopr h3 {
+	font: bold 45px Roboto, sans-serif;
+    width:550px;
+    float: left;
+    margin-top: 15px;
+}
+
+#vopr h1 {
+	margin-top: 20px;
+	font: 16px Roboto, sans-serif;
+    width:450px;
+    line-height: 1;
+     float: right;
+}
+
+#zaiv{
+    padding-top: 50px;
+		text-align: center;
+		height: 160px;
+		background: #ffffff;		
+			-webkit-background-size: cover;
+				-moz-background-size: cover;
+					-o-background-size: cover;
+						background-size: cover;
+		min-width: 1000px;
+		max-width: 1920px;
+}
+
+.btn {
+	float: left;
+	display: inline-block;
+	padding: 20px 28px;
+    padding-top: 15px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font: bold 22px Roboto, sans-serif;
+	background: #ef0f0f;
+     background: linear-gradient(to top, #cc0000 0%,  #ff0000 100%);
+	cursor: pointer;
+	
+	-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+			-o-border-radius: 6px;
+				border-radius: 6px;
+}
+
+.label input{
+    display:inline-block;
+    width: 322px;
+    height: 58px;
+    font: 16px Roboto, sans-serif;
+    color: #000000;
+    border: 3px solid #a6a6a6;
+    -webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+			-o-border-radius: 8px;
+				border-radius: 8px;
+    padding-left:50px;
+    padding-top:8px;
+    margin-right: 30px;
+    background: linear-gradient(to top, #f3f3f3 60%,  #aaa5a0  110%);
+}
+
+.label input:focus{
+    color: #000000;
+}
+.label input:not{
+    color: #a6a6a6;
+}
+
+
+.label form{
+    float: left;
+    margin-left: 160px;
+}
+
+#zaiv .btn{
+     width: 322px;
+    height: 58px;}
+
+#podval {
+    box-sizing: border-box;
+	height: 108px;
+	padding-top: 10px;
+	text-align: left;
+	color: #fff;
+	background: #007fcd url(../img/podval-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#podval h2{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:15px;
+    margin-top: 0px;
+    font: 24px Roboto Black, sans-serif;
+    font-weight: normal;
+    color: #fefeff;
+}
+#podval h3{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top:15px;
+    margin-top: 0px;
+    font: 18px 'Roboto', sans-serif;
+    font-weight: normal;
+}
+#podval a{
+    color:#fefeff;
+}
+#podval a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    width:200px;
+   float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.social a {
+	display: inline-block;
+	
+	margin: 0 3px;
+	
+}
+#podval .content{
+    margin-top: 20px;
+}
+
+
+
+
+
+

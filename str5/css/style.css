@@ -1,0 +1,795 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/18px ˈRobotoˈ, Times, sans-serif;
+	background-color: #ffffff;
+}
+
+ol, ul {list-style: none;}
+
+	*{
+		margin: 0;
+		padding: 0;
+		outline: none;
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/*a, a:hover {text-decoration: none;}*/
+
+.clear:before,
+.clear:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right  {float:right;}
+	
+.container {
+	width: 1000px;
+	margin: 0 auto;	
+}
+
+#header {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 15px 0;
+    max-width: 1920px;
+    min-width: 1000px;
+}
+
+#header .btn{
+    float:right;
+    margin-top: -30px;
+    text-transform: none;
+	display: inline-block;
+	padding: 7px 10px;
+	color: #ffffff;
+	font: 14px Roboto, sans-serif;
+	-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+			-o-border-radius: 4px;
+				border-radius: 4px;
+}
+
+.logo {
+	float:left;
+    margin-top: -20px;
+}
+.phone{
+    margin-left: 660px;
+    width:170px;
+    font: 18px 'Roboto', Times, sans-serif;
+}
+.phone-small{
+    display: inline-block;
+    font: 18px 'Roboto', sans-serif;
+    color: #1E90FF;
+}
+.phone-big{
+    margin-left: 6px;
+    display: inline-block;
+    font: 24px 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+.nav {
+	float:left;
+	padding-top: 5px;
+    padding-left: 80px;
+}
+.nav li {
+	float: left;
+	margin-right: 22px;
+    
+}
+
+.nav li:last-child {margin-right: 0;}
+.nav a:hover{
+    text-decoration: none;
+}
+.nav a {
+	/*text-transform:uppercase;*/
+	font: 14px Roboto Light, sans-serif;
+	color: #282828
+}
+
+#home {
+	height: 1000px;
+	padding-top: 154px;
+	text-align: center;
+	color: #1371b7;
+	background: #222 url(../img/home-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+    min-width: 1000px;
+    max-width: 1920px;
+}
+
+#home h3 {
+	margin-bottom: 93px;
+	font: bold 30px Roboto Black, sans-serif;
+}
+#home h1 {
+    margin-top: 110px;
+	margin-bottom: 305px;
+	color: #3c3c3c;
+    margin-left: 80px;
+	font: bold 26px 'Roboto' , sans-serif;
+}
+.label input{
+    display:inline-block;
+    width: 60px;
+    height: 50px;
+    font: 24px Roboto, sans-serif;
+    color: #000000;
+    border: 3px solid #a6a6a6;
+    -webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+			-o-border-radius: 7px;
+				border-radius: 7px;
+    padding: 2px 10px;
+    margin-right: 20px;
+}
+
+.label input:focus{
+    color: #000000;
+}
+.label input:not{
+    color: #a6a6a6;
+}
+
+.label input:nth-child(2){
+    width: 70px;
+}
+
+.label input:nth-child(3){
+    width: 120px;
+}
+
+.label form{
+    float: left;
+    position: relative;
+    top:-50px;
+    left:-540px;
+    
+}
+
+.bth:hover {
+	background: #daael17;
+	color: #ffffff;
+}
+
+.box {
+	padding: 72px 0;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+h2.title {
+	text-transform: uppercase;
+	font: bold 23px/23px Roboto Light, sans-serif;
+	color: #383838;
+}
+
+#automobili {
+	text-align: center;
+	background: #F7F7F7;
+    height: 450px;
+     min-width: 1000px;
+     max-width: 1920px;
+}
+
+#automobili .btn{
+margin: 10px 300px;
+}   
+
+#automobili .title{
+font: 30px 'Roboto', sans-serif;    
+margin-bottom: 10px;
+    margin-top: -40px;
+}    
+
+.automobili-item a{
+   display: inline-block;
+    width:120px;
+}
+.automobili-item img{
+   margin: 0px;
+    margin-bottom: 30px;
+}
+
+
+			
+#present {
+	height: 400px;
+	padding-top: 45px;
+	text-align: left;
+	color: #303030;
+	background: #222 url(../img/present-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+     min-width: 1000px;
+     max-width: 1920px;
+}
+
+#present h3, #dogovor h3 {
+	margin-bottom: 40px;
+	font: bold 22px Roboto Black, sans-serif;
+    text-transform: uppercase;
+}
+
+#present h2, #dogovor h2 {
+	margin-bottom: 20px;
+	color: 	#1E90FF;
+	font: bold 22px Roboto Black, sans-serif;
+    
+}
+
+#present h1, #dogovor h1 {
+	margin-bottom: 30px;
+	font: 16px Roboto Black, sans-serif;
+    width:400px;
+    line-height: 1.5;
+}
+
+#present .btn{
+    text-transform: none;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+.get{
+    float:left;
+    margin-top: -90px;
+    position: relative;
+    top: -30px;
+    font: bold 25px Roboto, sans-serif;
+    color: #e60000;
+}
+
+.line{
+   width:540px;
+    position: relative;
+    top:-95px;
+    float:left;
+}
+
+
+#dogovor {
+	height: 393px;
+	padding-top: 45px;
+	text-align: right;
+	color: #303030;
+	background: #222 url(../img/dogovor-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#dogovor h3 {
+	
+}
+#dogovor h2 {	
+}
+	
+#dogovor h1 {
+    float:right;
+}
+
+#dogovor .btn{
+    float: right;
+    margin-top: 100px;
+    position: relative;
+    left: 400px;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+
+#start {
+	height: 470px;
+	padding-top: 154px;
+	text-align: center;
+	color: #1371b7;
+	background: #222 url(../img/start-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+#start h1{
+    margin-top: 0px;
+    color:#ffffff;
+    font: bold 40px Roboto , sans-serif;
+    text-align: center;
+}
+#start img{
+    margin-top: -50px;
+    z-index: 20;
+    border: none;
+    cursor: pointer;
+}
+
+#proverka {
+	height: 20px;
+	padding-top: 0px;
+	text-align: left;
+	color: #303030;
+	background: #222 url(../img/proverka-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#proverka h3 {
+	margin-bottom: 20px;
+	font: 22px Roboto, sans-serif;
+    color: #ffffff;
+    float: left;
+    position: relative;
+    top:19px;
+}
+
+#proverka .btn { 
+    float: left;
+	display: inline-block;
+	padding: 10px 14px;
+	text-transform: none;
+	color: #ffffff;
+	font:  16px Roboto Black, sans-serif;
+	cursor: pointer;
+	margin-top: 12px;
+    margin-left: 120px;
+	-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+			-o-border-radius: 6px;
+				border-radius: 6px;
+}
+
+#dvigatel {
+	height: 358px;
+	padding-top: 78px;
+	text-align: left;
+	color: #303030;
+	background: #222 url(../img/dvigatel-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#dvigatel h3 {
+    margin-top: -20px;
+	margin-bottom: 15px;
+	font: bold 26px Roboto Black, sans-serif;
+    float: 
+    
+}
+	
+#dvigatel h1 {
+	font: 16px Roboto Black, sans-serif;
+    margin-left: 25px;
+    line-height: 2.1;
+	}
+#dvigatel img{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:55px;
+}
+
+#kontrproverka {
+	height: 408px;
+	padding-top: 80px;
+	text-align: left;
+	color: #303030;
+	background: #222 url(../img/kontrproverka-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#kontrproverka h3 {
+    display: block;
+    width:600px;
+    float: right;
+    text-align: right;
+	  margin-top: -50px;
+	margin-bottom: 33px;
+	font: bold 26px Roboto Black, sans-serif;
+    margin-left: 80px;
+}
+
+#kontrproverka h1 {
+    float: right;
+    text-align: right;
+    font: 16px Roboto Black, sans-serif;
+    margin-right: 5px;
+    line-height: 2.1;
+	}
+#kontrproverka img{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top:55px;
+    
+}
+#kontrproverka .play{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:30px;
+    left: 135px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#postavka {
+	height: 408px;
+	padding-top: 80px;
+	text-align: center;
+	color: #303030;
+	background: #222 url(../img/postavka-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#postavka h3 {
+    position: relative;
+	top: 0px;
+	font: 30px Roboto Black, sans-serif;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#postavka {
+	height: 712px;
+	
+	text-align: center;
+	color: #303030;
+	background: #222 url no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#map{
+	
+	text-align: center;
+	color: #1371b7;
+    height: 395px;
+	padding-top: 45px;
+	text-align: left;
+	color: #303030;
+	background: #222 url(../img/map.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+#map .natp{
+    float: left;
+    width:250px;
+    margin-top:70px;
+    margin-left: 40px;
+}
+#map .name{
+    font: bold 20px Roboto , sans-serif;
+}
+#map .line{
+    float: left;
+    width:300px;
+    position: relative;
+    top:0px;
+}
+#map .adress{
+    margin-top: 30px;
+}
+
+#map .contacts{
+    font: 20px Roboto , sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#map .mail{
+    margin-top:20px;
+}
+#map .contacts img{
+float: left;
+    margin-left: -40px;
+}
+#map .contacts img:nth-child(3){
+    margin-top: 20px;
+}
+
+#buttons .btn{
+    margin-left: 80px;
+    margin-top: -40px;
+    padding: 20px 80px;
+    font: 24px Roboto Black, sans-serif;
+    
+}
+#buttons{
+   min-width: 1000px;
+     max-width: 1920px;
+    background: #ffffff;
+}
+
+.btn {
+	float: left;
+	display: inline-block;
+	padding: 20px 28px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font: 22px Roboto, sans-serif;
+	background: #ef0f0f;
+     background: linear-gradient(to top, #cc0000 0%,  #ff0000 100%);
+	cursor: pointer;
+    font-weight: normal;
+	
+	-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+			-o-border-radius: 6px;
+				border-radius: 6px;
+}
+.btn-2 {
+    float: left;
+	display: inline-block;
+	padding: 18px 24px;
+	text-transform: uppercase;
+	color: #1E90FF;
+	font: 21px Roboto, sans-serif;
+	background: #ffffff;
+	cursor: pointer;
+   margin-left: 80px;
+    margin-top: -38px;
+    border: 5px solid #1E90FF;
+	
+	-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+			-o-border-radius: 6px;
+				border-radius: 6px;
+}
+
+
+
+#podval {
+    box-sizing: border-box;
+	height: 108px;
+	padding-top: 10px;
+	text-align: left;
+	color: #fff;
+	background: #222 url(../img/podval-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+			background-size: cover;
+				background-size: cover;
+    min-width: 1000px;
+     max-width: 1920px;
+}
+
+#podval h2{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top:15px;
+    margin-top: 0px;
+    font: 24px Roboto Black, sans-serif;
+    font-weight: normal;
+    color: #fefeff;
+}
+#podval h3{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top:15px;
+    margin-top: 0px;
+    font: 18px 'Roboto', sans-serif;
+    font-weight: normal;
+}
+#podval a{
+    color:#fefeff;
+}
+#podval a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    width:200px;
+   float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.social a {
+	display: inline-block;
+	
+	margin: 0 3px;
+	
+}
+#podval .content{
+    margin-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+ top: 1000px;
+  bottom: -2000px;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+ height: 100%;
+    z-index: 100;
+    
+}
+
+.popup {
+  margin: 75px auto;
+  background: #fff;
+  border: 1px solid #666;
+  width: 600px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.6);
+  position: relative;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+    
+}
+
+.close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -50px;
+  right: 0px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+    color: #fff;
+}
+.close:hover{
+    opacity: 0.6; 
+}
+
+.overlay .cancel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+transition: all 200ms;
+}
+
+.popup img{
+    width: 598px;
+}
+
+.popup .makers{
+    font: bold 40px 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popup ul li{
+    list-style:  disc;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.popup ul{
+    list-style:  disc;
+    margin-bottom: 20px;
+}
+.popup input{
+    display:inline-block;
+    width: 560px;
+    height: 50px;
+    padding: 2px 10px;
+    font: 20px Roboto, sans-serif;
+    color: #000000;
+    border: 3px solid #a6a6a6;
+    -webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+			-o-border-radius: 7px;
+				border-radius: 7px;
+    margin-bottom: 0px;
+    height: 60px;
+}
+
+.popup input:focus{
+    color: #000000;
+    /*border: 3px solid #1E90FF;*/
+}
+
+.popup input:not{
+    color: #a6a6a6;
+}
+
+.popup .btn{
+   float: left;
+    
+	display: inline-block;
+	padding: 15px 28px;
+    position: relative;
+    margin-right: 0;
+    width: 560px;
+    left: -280px;
+    height: 60px;
+	text-transform: none;
+	font: bold 20px Roboto, sans-serif;
+	font: bold 20px Roboto, sans-serif;
+	-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+			-o-border-radius: 7px;
+				border-radius: 7px 
+}
+
+.popup .all-ok{
+    font: 20px 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
